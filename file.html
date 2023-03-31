@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="file.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="parent">
+        <img src="./img/Group 1.png" alt="">
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <i class="bi bi-backspace-fill backspace"></i>
+            <div class="slidbar-brand">
+                <img src="./img/user.svg" alt="">
+                <div>
+                    <h2>Sarah joe</h2>
+                    <span>@Sarahjoe</span>
+                </div>
+            </div>
+            <div class="slidbar-menu">
+                <ul>
+                    <li>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20.457" height="25.029"
+                                viewBox="0 0 20.457 25.029">
+                                <path id="ic_account_balance_24px"
+                                    d="M4.153,11.727v8.343h3.23V11.727Zm6.46,0v8.343h3.23V11.727ZM2,26.029H22.457V22.453H2Zm15.074-14.3v8.343H20.3V11.727ZM12.229,1,2,6.959V9.343H22.457V6.959Z"
+                                    transform="translate(-2 -1)" fill="#393a62" />
+                            </svg>
+                            <span class="logo">Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+                                <path id="Icon_color" data-name="Icon color"
+                                    d="M18.667,21H2.333A2.336,2.336,0,0,1,0,18.667V3.5A3.5,3.5,0,0,1,3.5,0H16.334a2.336,2.336,0,0,1,2.333,2.333H3.5a1.167,1.167,0,0,0,0,2.333H18.667A2.336,2.336,0,0,1,21,7V18.667A2.336,2.336,0,0,1,18.667,21ZM10.5,9.333A1.168,1.168,0,0,0,9.333,10.5v4.666A1.168,1.168,0,0,0,10.5,16.334h8.167v-7ZM13.417,14H12.25a.584.584,0,0,1-.584-.583V12.25a.584.584,0,0,1,.584-.584h1.167A.584.584,0,0,1,14,12.25v1.167A.583.583,0,0,1,13.417,14Z"
+                                    fill="#73797d" />
+                            </svg>
+                            <span class="logo">My Wallet</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22.605" height="29.063"
+                                viewBox="0 0 22.605 29.063">
+                                <path id="ic_swap_vert_24px"
+                                    d="M22.761,25.621V14.3H19.532V25.621H14.688l6.458,6.442L27.6,25.621ZM11.458,3,5,9.442H9.844V20.761h3.229V9.442h4.844Z"
+                                    transform="translate(-5 -3)" fill="#73797d" />
+                            </svg>
+                            <span class="logo">Deposit</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22.605" height="29.063"
+                                viewBox="0 0 22.605 29.063">
+                                <path id="ic_swap_vert_24px"
+                                    d="M22.761,25.621V14.3H19.532V25.621H14.688l6.458,6.442L27.6,25.621ZM11.458,3,5,9.442H9.844V20.761h3.229V9.442h4.844Z"
+                                    transform="translate(-5 -3)" fill="#73797d" />
+                            </svg>
+                            <span class="logo">Withdrawal</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 21 17">
+                                <path id="Icon_color" data-name="Icon color"
+                                    d="M19.95,17H1.05A1.057,1.057,0,0,1,0,15.938V1.062A1.057,1.057,0,0,1,1.05,0h18.9A1.057,1.057,0,0,1,21,1.062V15.938A1.057,1.057,0,0,1,19.95,17ZM6.3,2.125A4.231,4.231,0,0,1,2.1,6.375v4.25a4.231,4.231,0,0,1,4.2,4.251h8.4a4.231,4.231,0,0,1,4.2-4.251V6.375a4.231,4.231,0,0,1-4.2-4.251Zm4.2,9.562A3.187,3.187,0,1,1,13.65,8.5,3.172,3.172,0,0,1,10.5,11.687Z"
+                                    fill="#73797d" />
+                            </svg>
+                            <span class="logo">Transfer And Request Money</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20.162" height="20.937"
+                                viewBox="0 0 20.162 20.937">
+                                <path id="Icon_color" data-name="Icon color"
+                                    d="M17.922,20.937H2.24A2.225,2.225,0,0,1,0,18.734V4.407A2.225,2.225,0,0,1,2.24,2.2H3.36V.551A.557.557,0,0,1,3.92,0H5.04A.557.557,0,0,1,5.6.551V2.2h8.96V.551A.557.557,0,0,1,15.121,0h1.12A.557.557,0,0,1,16.8.551V2.2h1.12a2.225,2.225,0,0,1,2.24,2.2V18.734A2.225,2.225,0,0,1,17.922,20.937ZM2.24,6.612V18.734H17.922V6.612Zm8.4,8.816H9.52a.556.556,0,0,1-.559-.551v-1.1a.556.556,0,0,1,.559-.551h1.121a.556.556,0,0,1,.559.551v1.1A.556.556,0,0,1,10.641,15.428Zm-4.481,0H5.04a.557.557,0,0,1-.561-.551v-1.1a.557.557,0,0,1,.561-.551H6.16a.557.557,0,0,1,.561.551v1.1A.557.557,0,0,1,6.16,15.428Zm8.961-4.408H14a.556.556,0,0,1-.561-.55v-1.1A.556.556,0,0,1,14,8.816h1.12a.556.556,0,0,1,.561.55v1.1A.556.556,0,0,1,15.121,11.02Zm-4.48,0H9.52a.556.556,0,0,1-.559-.55v-1.1a.556.556,0,0,1,.559-.55h1.121a.556.556,0,0,1,.559.55v1.1A.556.556,0,0,1,10.641,11.02Zm-4.481,0H5.04a.556.556,0,0,1-.561-.55v-1.1a.556.556,0,0,1,.561-.55H6.16a.556.556,0,0,1,.561.55v1.1A.556.556,0,0,1,6.16,11.02Z"
+                                    fill="#73797d" />
+                            </svg>
+                            <span class="logo">Fx Boker</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22.999" height="14.946"
+                                viewBox="0 0 22.999 14.946">
+                                <path id="Icon_color" data-name="Icon color"
+                                    d="M4.018,14.946a.572.572,0,0,1-.4-.165l-3.45-3.45a.585.585,0,0,1,0-.817l3.45-3.45a.575.575,0,0,1,.978.414v2.3h8.625a.575.575,0,0,1,.574.574V11.5a.576.576,0,0,1-.574.575H4.594v2.3a.576.576,0,0,1-.576.567ZM18.969,8.069a.575.575,0,0,1-.574-.59v-2.3H9.769A.576.576,0,0,1,9.194,4.6V3.454a.576.576,0,0,1,.575-.575h8.625V.579a.575.575,0,0,1,.977-.414l3.451,3.45a.588.588,0,0,1,.011.828L19.383,7.893A.578.578,0,0,1,18.969,8.069Z"
+                                    transform="translate(0.001 0)" fill="#73797d" />
+                            </svg>
+                            <span class="logo">Ex Change</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="26" viewBox="0 0 21 26">
+                                <path id="Icon_color" data-name="Icon color"
+                                    d="M3.709,26h-.4a.626.626,0,0,1-.451-.194L.38,23.361A1.354,1.354,0,0,1,0,22.438V1.3A1.308,1.308,0,0,1,1.312,0H19.688A1.308,1.308,0,0,1,21,1.3V22.49a1.286,1.286,0,0,1-.38.91l-2.508,2.353a.619.619,0,0,1-.451.2h-.4a.623.623,0,0,1-.451-.2L14.437,23.4a.674.674,0,0,0-.892,0L11.17,25.753a.623.623,0,0,1-.451.2h-.4a.618.618,0,0,1-.45-.2L7.494,23.4a.672.672,0,0,0-.931,0l-2.4,2.406A.622.622,0,0,1,3.709,26Zm2.2-13a.654.654,0,0,0-.657.651v1.3a.654.654,0,0,0,.657.649h5.249a.654.654,0,0,0,.657-.649v-1.3A.654.654,0,0,0,11.156,13Zm0-5.2a.654.654,0,0,0-.657.649v1.3a.654.654,0,0,0,.657.651h9.188a.654.654,0,0,0,.656-.651V8.45a.653.653,0,0,0-.656-.649Z"
+                                    fill="#73797d" />
+                            </svg>
+                            <span class="logo">Voucher</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+                                <path id="Icon_color" data-name="Icon color"
+                                    d="M16.334,21H4.666a2.336,2.336,0,0,1-2.333-2.333V12.833H1.167A1.168,1.168,0,0,1,0,11.667v-3.5A2.336,2.336,0,0,1,2.333,5.834h.63A4.694,4.694,0,0,1,2.333,3.5,3.5,3.5,0,0,1,5.834,0,6.615,6.615,0,0,1,10.5,2.847,6.616,6.616,0,0,1,15.166,0a3.5,3.5,0,0,1,3.5,3.5,4.664,4.664,0,0,1-.63,2.334h.63A2.336,2.336,0,0,1,21,8.167v3.5a1.168,1.168,0,0,1-1.167,1.167H18.667v5.834A2.336,2.336,0,0,1,16.334,21Zm-4.667-8.167v5.834h4.667V12.833H11.667Zm-7,0v5.834H9.333V12.833H4.666Zm7-4.666V10.5h7V8.167Zm-9.333,0V10.5h7V8.167ZM15.166,2.333c-1.276,0-3.5,2.225-3.5,3.5H14A2.327,2.327,0,0,0,16.334,3.5,1.168,1.168,0,0,0,15.166,2.333Zm-9.332,0A1.168,1.168,0,0,0,4.666,3.5,2.337,2.337,0,0,0,7,5.834H9.333A3.773,3.773,0,0,0,8.062,3.606,3.763,3.763,0,0,0,5.834,2.333Z"
+                                    fill="#73797d" />
+                            </svg>
+                            <span class="logo">Point</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20.998" height="18" viewBox="0 0 20.998 18">
+                                <path id="Icon_color" data-name="Icon color"
+                                    d="M11.968,18a8.838,8.838,0,0,1-5.129-1.63A.514.514,0,0,1,6.628,16a.5.5,0,0,1,.14-.391l.72-.73a.5.5,0,0,1,.63-.059A6.885,6.885,0,0,0,11.98,16H12A7,7,0,1,0,5,9H7.364a.49.49,0,0,1,.353.15l.2.2a.5.5,0,0,1,0,.71L4.387,13.6a.509.509,0,0,1-.709,0L.148,10.06a.5.5,0,0,1,0-.71l.2-.2A.49.49,0,0,1,.7,9H3a9,9,0,1,1,9,9Zm2.945-5.052a.507.507,0,0,1-.356-.148l-3.29-3.29a.533.533,0,0,1-.15-.35V4.5a.5.5,0,0,1,.5-.5h.76a.5.5,0,0,1,.354.147.5.5,0,0,1,.147.354V8.64l2.92,2.92a.5.5,0,0,1,0,.71l-.53.53A.5.5,0,0,1,14.913,12.948Z"
+                                    fill="#73797d" />
+                            </svg>
+                            <span class="logo">Transaction History</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20.998" height="21.587"
+                                viewBox="0 0 20.998 21.587">
+                                <path id="ic_settings_24px"
+                                    d="M20.791,13.851a8.411,8.411,0,0,0,.076-1.058,8.412,8.412,0,0,0-.076-1.058l2.277-1.781a.545.545,0,0,0,.13-.691L21.04,5.529a.542.542,0,0,0-.658-.237L17.694,6.371A7.886,7.886,0,0,0,15.87,5.314l-.41-2.86A.526.526,0,0,0,14.931,2H10.613a.526.526,0,0,0-.529.453l-.41,2.86A8.293,8.293,0,0,0,7.85,6.371L5.163,5.292a.526.526,0,0,0-.658.237L2.346,9.264a.532.532,0,0,0,.13.691l2.277,1.781a8.56,8.56,0,0,0-.076,1.058,8.56,8.56,0,0,0,.076,1.058L2.475,15.632a.545.545,0,0,0-.13.691L4.5,20.057a.543.543,0,0,0,.658.237L7.85,19.215a7.886,7.886,0,0,0,1.824,1.058l.41,2.86a.526.526,0,0,0,.529.453h4.317a.526.526,0,0,0,.529-.453l.41-2.86a8.293,8.293,0,0,0,1.824-1.058l2.688,1.079a.526.526,0,0,0,.658-.237L23.2,16.323a.545.545,0,0,0-.13-.691Zm-8.019,2.72a3.778,3.778,0,1,1,3.778-3.778A3.782,3.782,0,0,1,12.772,16.571Z"
+                                    transform="translate(-2.271 -2)" fill="#73797d" />
+                            </svg>
+                            <span class="logo">Setting</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20.998" height="20.043"
+                                viewBox="0 0 20.998 20.043">
+                                <path id="Icon_color" data-name="Icon color"
+                                    d="M18.665,20.043H2.333A2.284,2.284,0,0,1,0,17.816V2.227A2.284,2.284,0,0,1,2.333,0H18.665A2.284,2.284,0,0,1,21,2.227v15.59A2.284,2.284,0,0,1,18.665,20.043ZM6.742,12.248a2.339,2.339,0,0,0-2.077,1.225L3.593,15.489a.807.807,0,0,0,.035.816.893.893,0,0,0,.748.4H16.623a.883.883,0,0,0,.739-.4.808.808,0,0,0,.031-.811l-1.061-2.016a2.339,2.339,0,0,0-2.077-1.225ZM10.5,3.34A3.427,3.427,0,0,0,7,6.681a3.426,3.426,0,0,0,3.5,3.34A3.426,3.426,0,0,0,14,6.681,3.427,3.427,0,0,0,10.5,3.34Z"
+                                    fill="#73797d" />
+                            </svg>
+                            <span class="logo">Profile</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="open-menu">
+
+        <div class="slidbar-menu">
+            <svg fill="#d63d3d" width="64px" height="64px" viewBox="0 0 32 32" version="1.1"
+            xmlns="http://www.w3.org/2000/svg" stroke="#d63d3d">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+                <path
+                    d="M0.844 6.050c-0.256-0.256-0.381-0.581-0.381-0.975s0.125-0.719 0.381-0.975 0.581-0.381 0.975-0.381h28.512c0.394 0 0.719 0.125 0.975 0.381s0.381 0.581 0.381 0.975-0.125 0.719-0.381 0.975-0.581 0.381-0.975 0.381h-28.512c-0.394 0-0.719-0.125-0.975-0.381zM31.306 14.963c0.256 0.256 0.381 0.581 0.381 0.975s-0.125 0.719-0.381 0.975-0.581 0.381-0.975 0.381h-28.512c-0.394 0-0.719-0.125-0.975-0.381s-0.381-0.581-0.381-0.975 0.125-0.719 0.381-0.975 0.581-0.381 0.975-0.381h28.512c0.394 0 0.719 0.125 0.975 0.381zM31.306 25.819c0.256 0.256 0.381 0.581 0.381 0.975s-0.125 0.719-0.381 0.975-0.581 0.381-0.975 0.381h-28.512c-0.394 0-0.719-0.125-0.975-0.381s-0.381-0.581-0.381-0.975 0.125-0.719 0.381-0.975 0.581-0.381 0.975-0.381h28.512c0.394 0 0.719 0.131 0.975 0.381z">
+                </path>
+            </g>
+        </svg>
+            <ul>
+                <li>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20.457" height="25.029"
+                            viewBox="0 0 20.457 25.029">
+                            <path id="ic_account_balance_24px"
+                                d="M4.153,11.727v8.343h3.23V11.727Zm6.46,0v8.343h3.23V11.727ZM2,26.029H22.457V22.453H2Zm15.074-14.3v8.343H20.3V11.727ZM12.229,1,2,6.959V9.343H22.457V6.959Z"
+                                transform="translate(-2 -1)" fill="#393a62" />
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+                            <path id="Icon_color" data-name="Icon color"
+                                d="M18.667,21H2.333A2.336,2.336,0,0,1,0,18.667V3.5A3.5,3.5,0,0,1,3.5,0H16.334a2.336,2.336,0,0,1,2.333,2.333H3.5a1.167,1.167,0,0,0,0,2.333H18.667A2.336,2.336,0,0,1,21,7V18.667A2.336,2.336,0,0,1,18.667,21ZM10.5,9.333A1.168,1.168,0,0,0,9.333,10.5v4.666A1.168,1.168,0,0,0,10.5,16.334h8.167v-7ZM13.417,14H12.25a.584.584,0,0,1-.584-.583V12.25a.584.584,0,0,1,.584-.584h1.167A.584.584,0,0,1,14,12.25v1.167A.583.583,0,0,1,13.417,14Z"
+                                fill="#73797d" />
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22.605" height="29.063"
+                            viewBox="0 0 22.605 29.063">
+                            <path id="ic_swap_vert_24px"
+                                d="M22.761,25.621V14.3H19.532V25.621H14.688l6.458,6.442L27.6,25.621ZM11.458,3,5,9.442H9.844V20.761h3.229V9.442h4.844Z"
+                                transform="translate(-5 -3)" fill="#73797d" />
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22.605" height="29.063"
+                            viewBox="0 0 22.605 29.063">
+                            <path id="ic_swap_vert_24px"
+                                d="M22.761,25.621V14.3H19.532V25.621H14.688l6.458,6.442L27.6,25.621ZM11.458,3,5,9.442H9.844V20.761h3.229V9.442h4.844Z"
+                                transform="translate(-5 -3)" fill="#73797d" />
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 21 17">
+                            <path id="Icon_color" data-name="Icon color"
+                                d="M19.95,17H1.05A1.057,1.057,0,0,1,0,15.938V1.062A1.057,1.057,0,0,1,1.05,0h18.9A1.057,1.057,0,0,1,21,1.062V15.938A1.057,1.057,0,0,1,19.95,17ZM6.3,2.125A4.231,4.231,0,0,1,2.1,6.375v4.25a4.231,4.231,0,0,1,4.2,4.251h8.4a4.231,4.231,0,0,1,4.2-4.251V6.375a4.231,4.231,0,0,1-4.2-4.251Zm4.2,9.562A3.187,3.187,0,1,1,13.65,8.5,3.172,3.172,0,0,1,10.5,11.687Z"
+                                fill="#73797d" />
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20.162" height="20.937"
+                            viewBox="0 0 20.162 20.937">
+                            <path id="Icon_color" data-name="Icon color"
+                                d="M17.922,20.937H2.24A2.225,2.225,0,0,1,0,18.734V4.407A2.225,2.225,0,0,1,2.24,2.2H3.36V.551A.557.557,0,0,1,3.92,0H5.04A.557.557,0,0,1,5.6.551V2.2h8.96V.551A.557.557,0,0,1,15.121,0h1.12A.557.557,0,0,1,16.8.551V2.2h1.12a2.225,2.225,0,0,1,2.24,2.2V18.734A2.225,2.225,0,0,1,17.922,20.937ZM2.24,6.612V18.734H17.922V6.612Zm8.4,8.816H9.52a.556.556,0,0,1-.559-.551v-1.1a.556.556,0,0,1,.559-.551h1.121a.556.556,0,0,1,.559.551v1.1A.556.556,0,0,1,10.641,15.428Zm-4.481,0H5.04a.557.557,0,0,1-.561-.551v-1.1a.557.557,0,0,1,.561-.551H6.16a.557.557,0,0,1,.561.551v1.1A.557.557,0,0,1,6.16,15.428Zm8.961-4.408H14a.556.556,0,0,1-.561-.55v-1.1A.556.556,0,0,1,14,8.816h1.12a.556.556,0,0,1,.561.55v1.1A.556.556,0,0,1,15.121,11.02Zm-4.48,0H9.52a.556.556,0,0,1-.559-.55v-1.1a.556.556,0,0,1,.559-.55h1.121a.556.556,0,0,1,.559.55v1.1A.556.556,0,0,1,10.641,11.02Zm-4.481,0H5.04a.556.556,0,0,1-.561-.55v-1.1a.556.556,0,0,1,.561-.55H6.16a.556.556,0,0,1,.561.55v1.1A.556.556,0,0,1,6.16,11.02Z"
+                                fill="#73797d" />
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22.999" height="14.946"
+                            viewBox="0 0 22.999 14.946">
+                            <path id="Icon_color" data-name="Icon color"
+                                d="M4.018,14.946a.572.572,0,0,1-.4-.165l-3.45-3.45a.585.585,0,0,1,0-.817l3.45-3.45a.575.575,0,0,1,.978.414v2.3h8.625a.575.575,0,0,1,.574.574V11.5a.576.576,0,0,1-.574.575H4.594v2.3a.576.576,0,0,1-.576.567ZM18.969,8.069a.575.575,0,0,1-.574-.59v-2.3H9.769A.576.576,0,0,1,9.194,4.6V3.454a.576.576,0,0,1,.575-.575h8.625V.579a.575.575,0,0,1,.977-.414l3.451,3.45a.588.588,0,0,1,.011.828L19.383,7.893A.578.578,0,0,1,18.969,8.069Z"
+                                transform="translate(0.001 0)" fill="#73797d" />
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="26" viewBox="0 0 21 26">
+                            <path id="Icon_color" data-name="Icon color"
+                                d="M3.709,26h-.4a.626.626,0,0,1-.451-.194L.38,23.361A1.354,1.354,0,0,1,0,22.438V1.3A1.308,1.308,0,0,1,1.312,0H19.688A1.308,1.308,0,0,1,21,1.3V22.49a1.286,1.286,0,0,1-.38.91l-2.508,2.353a.619.619,0,0,1-.451.2h-.4a.623.623,0,0,1-.451-.2L14.437,23.4a.674.674,0,0,0-.892,0L11.17,25.753a.623.623,0,0,1-.451.2h-.4a.618.618,0,0,1-.45-.2L7.494,23.4a.672.672,0,0,0-.931,0l-2.4,2.406A.622.622,0,0,1,3.709,26Zm2.2-13a.654.654,0,0,0-.657.651v1.3a.654.654,0,0,0,.657.649h5.249a.654.654,0,0,0,.657-.649v-1.3A.654.654,0,0,0,11.156,13Zm0-5.2a.654.654,0,0,0-.657.649v1.3a.654.654,0,0,0,.657.651h9.188a.654.654,0,0,0,.656-.651V8.45a.653.653,0,0,0-.656-.649Z"
+                                fill="#73797d" />
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+                            <path id="Icon_color" data-name="Icon color"
+                                d="M16.334,21H4.666a2.336,2.336,0,0,1-2.333-2.333V12.833H1.167A1.168,1.168,0,0,1,0,11.667v-3.5A2.336,2.336,0,0,1,2.333,5.834h.63A4.694,4.694,0,0,1,2.333,3.5,3.5,3.5,0,0,1,5.834,0,6.615,6.615,0,0,1,10.5,2.847,6.616,6.616,0,0,1,15.166,0a3.5,3.5,0,0,1,3.5,3.5,4.664,4.664,0,0,1-.63,2.334h.63A2.336,2.336,0,0,1,21,8.167v3.5a1.168,1.168,0,0,1-1.167,1.167H18.667v5.834A2.336,2.336,0,0,1,16.334,21Zm-4.667-8.167v5.834h4.667V12.833H11.667Zm-7,0v5.834H9.333V12.833H4.666Zm7-4.666V10.5h7V8.167Zm-9.333,0V10.5h7V8.167ZM15.166,2.333c-1.276,0-3.5,2.225-3.5,3.5H14A2.327,2.327,0,0,0,16.334,3.5,1.168,1.168,0,0,0,15.166,2.333Zm-9.332,0A1.168,1.168,0,0,0,4.666,3.5,2.337,2.337,0,0,0,7,5.834H9.333A3.773,3.773,0,0,0,8.062,3.606,3.763,3.763,0,0,0,5.834,2.333Z"
+                                fill="#73797d" />
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20.998" height="18" viewBox="0 0 20.998 18">
+                            <path id="Icon_color" data-name="Icon color"
+                                d="M11.968,18a8.838,8.838,0,0,1-5.129-1.63A.514.514,0,0,1,6.628,16a.5.5,0,0,1,.14-.391l.72-.73a.5.5,0,0,1,.63-.059A6.885,6.885,0,0,0,11.98,16H12A7,7,0,1,0,5,9H7.364a.49.49,0,0,1,.353.15l.2.2a.5.5,0,0,1,0,.71L4.387,13.6a.509.509,0,0,1-.709,0L.148,10.06a.5.5,0,0,1,0-.71l.2-.2A.49.49,0,0,1,.7,9H3a9,9,0,1,1,9,9Zm2.945-5.052a.507.507,0,0,1-.356-.148l-3.29-3.29a.533.533,0,0,1-.15-.35V4.5a.5.5,0,0,1,.5-.5h.76a.5.5,0,0,1,.354.147.5.5,0,0,1,.147.354V8.64l2.92,2.92a.5.5,0,0,1,0,.71l-.53.53A.5.5,0,0,1,14.913,12.948Z"
+                                fill="#73797d" />
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20.998" height="21.587"
+                            viewBox="0 0 20.998 21.587">
+                            <path id="ic_settings_24px"
+                                d="M20.791,13.851a8.411,8.411,0,0,0,.076-1.058,8.412,8.412,0,0,0-.076-1.058l2.277-1.781a.545.545,0,0,0,.13-.691L21.04,5.529a.542.542,0,0,0-.658-.237L17.694,6.371A7.886,7.886,0,0,0,15.87,5.314l-.41-2.86A.526.526,0,0,0,14.931,2H10.613a.526.526,0,0,0-.529.453l-.41,2.86A8.293,8.293,0,0,0,7.85,6.371L5.163,5.292a.526.526,0,0,0-.658.237L2.346,9.264a.532.532,0,0,0,.13.691l2.277,1.781a8.56,8.56,0,0,0-.076,1.058,8.56,8.56,0,0,0,.076,1.058L2.475,15.632a.545.545,0,0,0-.13.691L4.5,20.057a.543.543,0,0,0,.658.237L7.85,19.215a7.886,7.886,0,0,0,1.824,1.058l.41,2.86a.526.526,0,0,0,.529.453h4.317a.526.526,0,0,0,.529-.453l.41-2.86a8.293,8.293,0,0,0,1.824-1.058l2.688,1.079a.526.526,0,0,0,.658-.237L23.2,16.323a.545.545,0,0,0-.13-.691Zm-8.019,2.72a3.778,3.778,0,1,1,3.778-3.778A3.782,3.782,0,0,1,12.772,16.571Z"
+                                transform="translate(-2.271 -2)" fill="#73797d" />
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20.998" height="20.043"
+                            viewBox="0 0 20.998 20.043">
+                            <path id="Icon_color" data-name="Icon color"
+                                d="M18.665,20.043H2.333A2.284,2.284,0,0,1,0,17.816V2.227A2.284,2.284,0,0,1,2.333,0H18.665A2.284,2.284,0,0,1,21,2.227v15.59A2.284,2.284,0,0,1,18.665,20.043ZM6.742,12.248a2.339,2.339,0,0,0-2.077,1.225L3.593,15.489a.807.807,0,0,0,.035.816.893.893,0,0,0,.748.4H16.623a.883.883,0,0,0,.739-.4.808.808,0,0,0,.031-.811l-1.061-2.016a2.339,2.339,0,0,0-2.077-1.225ZM10.5,3.34A3.427,3.427,0,0,0,7,6.681a3.426,3.426,0,0,0,3.5,3.34A3.426,3.426,0,0,0,14,6.681,3.427,3.427,0,0,0,10.5,3.34Z"
+                                fill="#73797d" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </div>
+        <div class="bg-sidebar"></div>
+        <div class="main-content">
+            <header>
+                <nav>
+                    <div class="had-nav">
+                        <img src="img/ic_account_balance_24px.png">
+                        <h1>Dashboard</h1>
+                    </div>
+                    <div class="nav-cntant">
+                        <img src="img/Group 2.png">
+                        <div class="nav-dv">
+                            <img src="img/1.png">
+                            <select name="English" id="English">
+                                <option value="volvo">English</option>
+                            </select>
+                        </div>
+                        <div class="nav-dv">
+                            <img src="img/2.png">
+                            <select name="Sarah" id="Sarah">
+                                <option value="Sarah Joe">English</option>
+                            </select>
+                        </div>
+                        <img src="img/Icon color.png">
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <section class="first-section">
+                    <i class="bi bi-x-circle-fill circle"></i>
+                    <div class="section-itm">
+                        <div class="section-dv">
+                            <h2>Get More From Meta Trader ! </h2>
+                            <p>You've learned 80% of your goal to trade ! <br>
+                                keep it up and start trading !</p>
+                        </div>
+                        <div class="section-dv">
+                            <img src="img/3.png">
+                        </div>
+                    </div>
+                </section>
+                <section class="secund-section">
+                    <div class="section-hd">
+                        <div class="dv1">
+                            <img src="img/4.png">
+                            <h2>Quick Access</h2>
+                        </div>
+                    </div>
+                    <div class="small-section">
+                        <div class="small-dv">
+                            <div class="small">
+                                <div class="icon-box">
+                                    <img src="img/5.png">
+                                </div>
+                                <span>New Deposit</span>
+                            </div>
+                            <div class="small">
+                                <div class="icon-box">
+                                    <img src="img/5.png">
+                                </div>
+                                <span>New Withdraw</span>
+                            </div>
+                            <div class="small">
+                                <div class="icon-box">
+                                    <img src="img/6.png">
+                                </div>
+                                <span>Point Withdrawal</span>
+                            </div>
+                            <div class="small">
+                                <div class="icon-box">
+                                    <img src="img/7.png">
+                                </div>
+                                <span>Buy Voucher</span>
+                            </div>
+                            <div class="small">
+                                <div class="icon-box">
+                                    <img src="img/8.png">
+                                </div>
+                                <span>New Send</span>
+                            </div>
+                        </div>
+                        <div class="small-d">
+                            <img src="img/Group 3.png" class="dts">
+                            <div class="c-img">
+                                <img src="img/6.png">
+                            </div>
+                            <h2>
+                                My Points <br> 30
+                            </h2>
+                        </div>
+                    </div>
+
+                </section>
+                <section class="third-section">
+                    <div class="section-hd">
+                        <div class="dv1">
+                            <img src="img/11.png">
+                            <h2>Wallet</h2>
+                        </div>
+                        <div class="dv2">
+                            <img src="img/9.png">
+                            <h3>Update</h3>
+                        </div>
+                    </div>
+                    <div class="small-section">
+                        <div class="small-dvs">
+                            <div class="smalls">
+                                <div class="icon-box">
+                                    <img src="img/12.png">
+                                </div>
+                                <span>379,303.01 USD</span>
+                            </div>
+                            <div class="smalls">
+                                <div class="icon-box">
+                                    <img src="img/13.png">
+                                </div>
+                                <span>379,303.01 BTC</span>
+                            </div>
+                            <div class="smalls">
+                                <div class="icon-box">
+                                    <img src="img/14.png">
+                                </div>
+                                <span>379,303.01 EUR</span>
+                            </div>
+                            <div class="smalls">
+                                <div class="icon-box">
+                                    <img src="img/15.png">
+                                </div>
+                                <span>379,303.01 litecoin</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+                <section class="forth-section">
+                    <div class="section-hd">
+                        <div class="dv1">
+                            <img src="./img/Active Request.svg">
+                            <h2>Active Request</h2>
+                            
+                        </div>
+                        <div class="dv2">
+                            <img src="img/setting.svg">
+                            <h3>Setting</h3>
+                        </div>
+                    </div>
+                    <div class="table-wrapper">
+                        <table class="fl-table">
+                            <thead>
+                            <tr>
+                                <th>Tracking Number <img src="./img/swap.svg" alt=""></th>
+                                <th>Amount and Type <img src="./img/swap.svg" alt=""></th>
+                                <th>Change Status Data <img src="./img/swap.svg" alt=""></th>
+                                <th>Status <img src="./img/swap.svg" alt=""></th>
+                                <th>Message <img src="./img/swap.svg" alt=""></th>
+                                <th>Action <img src="./img/swap.svg" alt=""></th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>IR20733872</td>
+                                <td>1000 USD</td>
+                                <td>23-3-2023 10:50pm</td>
+                                <td><a href="" class="a-clms">New</a></td>
+                                <td><img src="./img/Message.svg" alt="" ></td>
+                                <td><img src="./img/action.svg" alt=""></td>
+                            </tr>
+                            <tr>
+                                <td>IR20733872</td>
+                                <td>1000 USD</td>
+                                <td>23-3-2023 10:50pm</td>
+                                <td><a href="" class="a-clms">New</a></td>
+                                <td><img src="./img/Message.svg" alt=""></td>
+                                <td><img src="./img/action.svg" alt=""></td>
+                            </tr>
+                            <tr>
+                                <td>IR20733872</td>
+                                <td>1000 USD</td>
+                                <td>23-3-2023 10:50pm</td>
+                                <td>                               
+                                 <a href="" class="a-clms">New</a></td>
+                                <td><img src="./img/Message.svg" alt=""></td>
+                                <td><img src="./img/action.svg" alt=""></td>
+                            </tr>
+                            <tr>
+                                <td>IR20733872</td>
+                                <td>1000 USD</td>
+                                <td>23-3-2023 10:50pm</td>
+                                <td><a href="" class="a-clms">New</a></td>
+                                <td> <img src="./img/Message.svg" alt=""></td>
+                                <td><img src="./img/action.svg" alt=""></td>
+                            </tr>
+                          
+                           
+                            <tbody>
+                        </table>
+                    </div>
+                </section>
+                <section class="forth-section">
+                    <div class="section-hd">
+                        <div class="dv1">
+                            <img src="img/16.png">
+                            <h2>Exchange Rate</h2>
+                            <h3>(Fiat Exchange Rate)</h3>
+                        </div>
+                    </div>
+                    <div class="table-wrapper">
+                        <table class="fl-table">
+                            <thead>
+                            <tr>
+                                <th>Currency<img src="./img/swap.svg" alt=""></th>
+                                <th>Buy<img src="./img/swap.svg" alt=""></th>
+                                <th>Sell<img src="./img/swap.svg" alt=""></th>
+                              
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>USD/IRR </td>
+                                <td id="green">589,893 <img src="./img/33.png" alt=""></td>
+                                <td id="red">572,903 <img src="./img/22.png" alt=""></td>
+                                
+                            </tr>
+                            <tr>
+                                <td>EUR/IRR</td>
+                                <td id="green">589,893 <img src="./img/33.png"alt=""></td>
+                                <td id="red">572,903 <img src="./img/22.png"alt=""></td>
+                               
+                            </tr>
+                            
+                            <tr>
+                                <td>USD/IRR</td>
+                                <td id="green">589,893 <img src="./img/33.png"alt=""></td>
+                                <td id="red">572,903 <img src="./img/22.png"alt=""></td>
+                               
+                            </tr>
+                          
+                           
+                            <tbody>
+                        </table>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
